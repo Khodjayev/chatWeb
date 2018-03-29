@@ -1,0 +1,125 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #f2f8f8;
+    font-family: Verdana;
+}
+
+#wrapper {
+    margin: 0px auto;
+    background: #19222d;
+    color: #b1c3d5;
+    width: 750px;
+}
+ header {
+     height: 100px;
+     border-bottom: 2px solid #294465;
+     position: relative;
+ }
+    header .name {
+        color: #fff;
+        font-size: 25px;
+        position: absolute;
+        top: 21px;
+        left: 35px;
+    }
+    header .status{
+        font-size: 23px;
+        position: absolute;
+        bottom: 18px;
+        left: 35px;
+    }
+    header .menu {
+        background: url(../img/menu.png) no-repeat right;
+        position: absolute;
+        right: 35px;
+        top: 50px;
+        width: 50px;
+        height: 10px;
+    }
+
+#messages {
+    width: 750px;
+    /*min-height: 500px;*/
+    /*margin: 25px 30px 0px 30px;*/
+}
+    #messages .empty{
+        background: url(../img/chat_icon.png) no-repeat center;
+        padding-top: 477px;
+        padding-left: 492px;
+    }
+    #messages .center  {
+        text-align: center;
+        font-size: 23px;
+        padding-left: 25px;
+        padding-bottom: 100px;
+    }
+
+    #messages .message {
+        width: 690px;
+        /*min-height: 250px;*/
+        margin: 25px 30px 0px 30px;
+    }
+    #messages .img{
+        float: left;
+        width: 76px;
+        /*height: 250px;*/
+        margin-right: 10px;
+    }
+    #messages img {
+        float: left;
+        width: 76px;
+        height: 76px;
+        border-radius: 50%;
+        margin: 0px;
+    }
+
+    #messages .name {
+        float: right;
+        width: 600px;
+        font-weight: bold;
+        color: #fff;
+        margin: 10px 0px;
+    }
+
+    #messages .text {
+        float: right;
+        width: 600px;
+        margin: 10px 0px;
+        color: #fff;
+        line-height: 25px;
+    }
+
+
+
+
+footer {
+    border-top: 2px solid #294465;
+    height: 100px;
+}
+
+    .input textarea{
+        float: left;
+        border: 0px;
+        outline: 0px solid  #19222d;
+        background: none;
+        color: #b1c3d5;
+        font-size: 25px;
+        line-height: 30px;
+        margin: 17px 0px 17px 35px;
+        width: 500px;
+    }
+    .send {
+        float: right;
+        background: url(../img/send.png);
+        margin: 17px 35px 17px 0px;
+        width: 60px;
+        height: 60px;
+    }
+    
+.clearfix {
+    clear: both;
+}    
